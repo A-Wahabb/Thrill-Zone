@@ -8,7 +8,7 @@ const MainComponents = () => {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path='/HomePage' element={<HomePage />} />
+                    <Route path='/' element={<HomePage />} />
                 </Routes>
             </BrowserRouter>
 
