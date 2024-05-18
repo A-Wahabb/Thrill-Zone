@@ -3,9 +3,10 @@ import Topbar from "../Components/Topbar";
 import HeadSection from "../Components/HomePage/Header";
 import playIcon from '../assets/img/play_btn.svg'; // Your custom play icon
 import pauseIcon from '../assets/img/pause_btn.svg'; // Your custom pause icon
-import videoFile from '../assets/sample-video.mp4';
+import videoFile from '../assets/s_video.mp4';
 import IrrParallelogram from "../Components/IrrParallelogram/IrrParallelogram";
 import BlueParallogram from "../Components/BlueParallogram/BlueParallogram";
+import vr_man from '../assets/img/vr_man.png'; // Your custom play icon
 
 const HomePage = () => {
     const [isPlaying, setIsPlaying] = useState(true);
@@ -55,6 +56,20 @@ const HomePage = () => {
                         <BlueParallogram>
                             <p className="font-space text-dark-blue px-2 mb-0 ">About us</p>
                         </BlueParallogram>
+
+                        <div className="row">
+                            <div className="col-12 col-md-6">
+                                <p>qwerty</p>
+                                <p>qwerty</p>
+                                <p>qwerty</p>
+                                <p>qwerty</p>
+                            </div>
+                            <div className="col-12 col-md-6 HalfImg borderParallelogram position-relative">
+                                <IrrParallelogram>
+                                    <img src={vr_man} alt='' className="h-100 w-100 object-fit-cover" />
+                                </IrrParallelogram>
+                            </div>
+                        </div>
                     </section>
                 </div>
             </div>

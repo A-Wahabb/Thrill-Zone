@@ -56,7 +56,6 @@
   font-size: 5vw
 }
 
-
 .videoClip {
   width: 80%;
   height: 32%;
@@ -85,4 +84,9 @@
   /* Adjust size as needed */
   height: 50px;
   /* Adjust size as needed */
+}
+
+.HalfImg {
+  width: 50%;
+  height: 300px;
 }
