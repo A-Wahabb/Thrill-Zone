@@ -32,7 +32,7 @@ const Topbar = () => {
                         </WhiteParallogram>
 
                         <ul className="navbar-nav ms-auto d-none d-md-inline-flex">
-                            <button class="image-button font-space">Lets Talk</button>
+                            <button class="image-button font-space px-4">Lets Talk</button>
                         </ul>
                     </div>
                 </div>

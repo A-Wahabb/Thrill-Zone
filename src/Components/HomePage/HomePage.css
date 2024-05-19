@@ -28,7 +28,7 @@
     background-repeat: no-repeat;
 }
 
-.image-button:hover {
+.white-image-button:hover {
     opacity: 0.8;
     /* Adds a slight opacity change on hover */
 }

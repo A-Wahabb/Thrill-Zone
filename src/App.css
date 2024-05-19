@@ -3,6 +3,11 @@
   src: url('./assets/font/space_mission/SPACE\ MISSION.otf');
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/font/Poppins/Poppins-Thin.otf');
+}
+
 .main-bg {
   background-color: #05061E;
 }
@@ -36,8 +41,12 @@
   width: fit-content;
 }
 
-.w-25ch {
-  width: 25ch;
+.w-18ch {
+  width: 18ch;
+}
+
+.h-300 {
+  height: 300px;
 }
 
 .font-space {
@@ -45,11 +54,19 @@
 }
 
 .font-poppins {
-  font-family: 'poppins';
+  font-family: 'Poppins';
 }
 
 .fs-18 {
   font-size: 18px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.fs-7vw {
+  font-size: 7vw
 }
 
 .fs-5vw {
@@ -88,5 +105,14 @@
 
 .HalfImg {
   width: 50%;
-  height: 300px;
+  height: 400px;
+}
+
+.text-white-1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.buttonToParallelogram {
+  bottom: -10%;
+  left: 10%;
 }

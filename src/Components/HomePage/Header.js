@@ -19,12 +19,12 @@ const HeadSection = () => {
                         </div>
                     </BlueParallogram>
                 </div>
-                <p className="font-space fs-5vw text-center text-white mx-auto w-25ch mt-4" >The Pinnacle of Entertainment Hubs</p>
+                <p className="font-space fs-7vw text-center text-white mx-auto w-18ch mt-4" >The Pinnacle of Entertainment Hubs</p>
                 <p className='my-4 font-poppins fs-18 text-white-80 text-center w-50 mx-auto'>Dive into thrilling multiplayer battles, epic adventures, and the latest releases. Challenge friends or embark on solo missions. Get ready for non-stop fun!"</p>
 
                 <div>
                     <ul className="d-flex gap-3 justify-content-center">
-                        <button class="white-image-button px-5 text-blue font-space">Booking</button>
+                        <button class="white-image-button text-nowrap px-5 text-blue font-space">Booking</button>
                         <div className="d-flex gap-2">
                             <p className='text-white mb-0 align-content-center font-space'>Explore</p>
                             <img src={arrow_narrow_right} alt='arr' />
