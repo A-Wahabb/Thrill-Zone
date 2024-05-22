@@ -10,10 +10,12 @@ const MainComponents = () => {
                 <Routes>
                     <Route path='/' element={<HomePage />} />
                 </Routes>
-            </BrowserRouter>
-
-        </>
+            </BrowserRouter> 
+  </>
     );
 }
 
+
+
 export default MainComponents;
+
