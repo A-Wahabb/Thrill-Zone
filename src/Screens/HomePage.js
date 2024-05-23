@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
 import Topbar from "../Components/Topbar";
 import HeadSection from "../Components/HomePage/Header";
-import playIcon from '../assets/img/play_btn.svg'; // Your custom play icon
-import pauseIcon from '../assets/img/pause_btn.svg'; // Your custom pause icon
-import videoFile from '../assets/s_video.mp4';
+// import playIcon from '../assets/img/play_btn.svg'; // Your custom play icon
+// import pauseIcon from '../assets/img/pause_btn.svg'; // Your custom pause icon
+// import videoFile from '../assets/s_video.mp4';
 import IrrParallelogram from "../Components/IrrParallelogram/IrrParallelogram";
 import BlueParallogram from "../Components/BlueParallogram/BlueParallogram";
 import vr_man from '../assets/img/vr_man.png'; // Your custom play icon
@@ -36,7 +36,7 @@ const HomePage = () => {
                         <div className="videoClip borderParallelogram position-relative">
                             <IrrParallelogram>
 
-                                <video
+                                {/* <video
                                     className="clip-path-video"
                                     autoPlay
                                     muted
@@ -48,7 +48,7 @@ const HomePage = () => {
                                 </video>
                                 <button className="video-control-btn" onClick={togglePlayPause}>
                                     <img src={isPlaying ? pauseIcon : playIcon} alt="Play/Pause" />
-                                </button>
+                                </button> */}
                             </IrrParallelogram>
                         </div>
                     </div>

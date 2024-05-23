@@ -79,7 +79,7 @@
   margin: 0 auto;
 }
 
-.videoClip video {
+.videoClip iframe {
   width: 100%;
   height: 100%;
   object-fit: contain;
