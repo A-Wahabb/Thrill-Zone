@@ -1,8 +1,8 @@
 import React, { useState, useRef } from "react";
 import Topbar from "../Components/Topbar";
 import HeadSection from "../Components/HomePage/Header";
-// import playIcon from '../assets/img/play_btn.svg'; // Your custom play icon
-// import pauseIcon from '../assets/img/pause_btn.svg'; // Your custom pause icon
+import playIcon from '../assets/img/play_btn.svg'; // Your custom play icon
+import pauseIcon from '../assets/img/pause_btn.svg'; // Your custom pause icon
 // import videoFile from '../assets/s_video.mp4';
 import IrrParallelogram from "../Components/IrrParallelogram/IrrParallelogram";
 import BlueParallogram from "../Components/BlueParallogram/BlueParallogram";
@@ -36,19 +36,19 @@ const HomePage = () => {
                         <div className="videoClip borderParallelogram position-relative">
                             <IrrParallelogram>
 
-                                {/* <video
-                                    className="clip-path-video"
+                                <video
+                                    className="clip-path-video w-100"
                                     autoPlay
                                     muted
                                     loop
                                     ref={videoRef}
                                 >
-                                    <source src={videoFile} type="video/mp4" />
+                                    <source src='https://thrill-zone.vercel.app/videos/s_video.mp4' type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
                                 <button className="video-control-btn" onClick={togglePlayPause}>
                                     <img src={isPlaying ? pauseIcon : playIcon} alt="Play/Pause" />
-                                </button> */}
+                                </button>
                             </IrrParallelogram>
                         </div>
                     </div>
