@@ -45,7 +45,7 @@ const Carousel = () => {
                 {slides.map((slide, index) => (
                     <div
                         key={slide.id}
-                        className={`slide borderParallelogram ${index === activeSlide ? 'active' : ''}`}
+                        className={`slide borderParallelogram position-relative h-100x ${index === activeSlide ? 'active' : ''}`}
                     >
                         <IrrParallelogram>
                             <img src={slide.image} alt={`Slide ${slide.id}`} />
