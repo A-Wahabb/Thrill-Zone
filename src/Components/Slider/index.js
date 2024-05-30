@@ -14,7 +14,7 @@ const Carousel = () => {
 
     const settings = {
         centerMode: true,
-        centerPadding: '25%', // Adjusted to make left and right slides 50% visible
+        centerPadding: '30%', // Adjusted to make left and right slides 50% visible
         slidesToShow: 1, // Only one slide is fully shown at a time
         infinite: true,
         speed: 500,
@@ -24,7 +24,7 @@ const Carousel = () => {
         beforeChange: (current, next) => setActiveSlide(next),
         focusOnSelect: true,
         slide: 'div',
-        prevArrow: <img src={play} alt='prev' className='rotate-180' />, // Set custom prev arrow
+        prevArrow: <img src={play} alt='prev' />, // Set custom prev arrow
         nextArrow: <img src={play} alt='next' /> // Set custom next arrow
     };
 
