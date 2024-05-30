@@ -157,3 +157,34 @@
 .text-white {
   color: #FFFFFF;
 }
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #2844C3;
+}
+
+.white-image-button {
+  background-image: url('./assets/img/whiteBtn.svg');
+  background-size: contain;
+  /* Ensures the image covers the entire button */
+  background-position: center;
+  /* Centers the image */
+  line-height: 50px;
+  /* Centers the text vertically */
+  cursor: pointer;
+  /* Changes the cursor to pointer on hover */
+  background-repeat: no-repeat;
+}
+
+.white-image-button:hover {
+  opacity: 0.8;
+  /* Adds a slight opacity change on hover */
+}
+
+
+@media (max-width: 768px) {
+  .topBar {
+    clip-path: none;
+  }
+}

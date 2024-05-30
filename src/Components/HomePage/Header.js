@@ -24,7 +24,7 @@ const HeadSection = () => {
 
                 <div>
                     <ul className="d-flex gap-3 justify-content-center">
-                        <button class="white-image-button text-nowrap px-5 text-blue font-space">Booking</button>
+                        <button class="white-image-button text-nowrap px-5 text-blue font-space bg-transparent border-0 text-center fs-16 d-inline-block">Booking</button>
                         <div className="d-flex gap-2">
                             <p className='text-white mb-0 align-content-center font-space'>Explore</p>
                             <img src={arrow_narrow_right} alt='arr' />

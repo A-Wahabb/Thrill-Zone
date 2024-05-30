@@ -9,6 +9,7 @@ import BlueParallogram from "../Components/BlueParallogram/BlueParallogram";
 import vr_man from '../assets/img/vr_man.png'; // Your custom play icon
 import Footer from "../Components/Footer";
 import Carousel from "../Components/Slider";
+import ExperinceTrill from "../Components/ExperienceTrill";
 
 const HomePage = () => {
     const [isPlaying, setIsPlaying] = useState(true);
@@ -64,7 +65,7 @@ const HomePage = () => {
                             <div className="col-12 col-md-6">
                                 <p className="font-space text-white fs-36" >Thrill Zone has something beyond the biggest Laser Tag field in Islamabad</p>
                                 <p className="font-poppins text-white-1">We have Enjoyable activities for all ages (5 years and above). Book a space at Thrill Zone for youngsters birthday parties, corporate group building or just a bit of excitement with family and friends…</p>
-                                <button class="white-image-button text-nowrap px-5 mt-3 text-blue font-space">Read More</button>
+                                <button class="white-image-button text-nowrap px-5 mt-3 text-blue font-space bg-transparent border-0 text-center fs-16 d-inline-block">Read More</button>
 
                             </div>
                             <div className="col-12 col-md-6 HalfImg borderParallelogram position-relative">
@@ -78,64 +79,8 @@ const HomePage = () => {
                         <BlueParallogram>
                             <p className="font-space text-dark-blue px-2 mb-0 ">Games</p>
                         </BlueParallogram>
-                        <div className="d-flex align-items-center">
-                            <p className="fs-5vw font-space text-white mb-0" >EXPERIENCE A NEW THRILL</p>
-                            <button class="white-image-button text-nowrap px-5 ms-auto text-blue font-space">Read More</button>
-                        </div>
                     </section>
-                    <section>
-                        <div className="row justify-content-center">
-
-                            <div className="col-12 col-md-6 col-lg-4 mb-5 h-300 borderParallelogram position-relative">
-                                <IrrParallelogram>
-                                    <img src={vr_man} alt='' className="h-100 w-100 object-fit-cover" />
-                                </IrrParallelogram>
-                                <button class="image-button font-space text-nowrap position-absolute buttonToParallelogram px-5">Arcade Games</button>
-                            </div>
-                            <div className="col-12 col-md-6 col-lg-4 mb-5 h-300 borderParallelogram position-relative">
-                                <IrrParallelogram>
-                                    <img src={vr_man} alt='' className="h-100 w-100 object-fit-cover" />
-                                </IrrParallelogram>
-                                <button class="image-button font-space text-nowrap position-absolute buttonToParallelogram px-5">Kids Play Area</button>
-                            </div>
-                            <div className="col-12 col-md-6 col-lg-4 mb-5 h-300 borderParallelogram position-relative">
-                                <IrrParallelogram>
-                                    <img src={vr_man} alt='' className="h-100 w-100 object-fit-cover" />
-                                </IrrParallelogram>
-                                <button class="image-button font-space text-nowrap position-absolute buttonToParallelogram px-5">BUMPER CARS</button>
-                            </div>
-                            <div className="col-12 col-md-6 col-lg-4 mb-5 h-300 borderParallelogram position-relative">
-                                <IrrParallelogram>
-                                    <img src={vr_man} alt='' className="h-100 w-100 object-fit-cover" />
-                                </IrrParallelogram>
-                                <button class="image-button font-space text-nowrap position-absolute buttonToParallelogram px-5">Trampoline</button>
-                            </div>
-                            <div className="col-12 col-md-6 col-lg-4 mb-5 h-300 borderParallelogram position-relative">
-                                <IrrParallelogram>
-                                    <img src={vr_man} alt='' className="h-100 w-100 object-fit-cover" />
-                                </IrrParallelogram>
-                                <button class="image-button font-space text-nowrap position-absolute buttonToParallelogram px-5">Ninja Courses</button>
-                            </div>
-                            <div className="col-12 col-md-6 col-lg-4 mb-5 h-300 borderParallelogram position-relative">
-                                <IrrParallelogram>
-                                    <img src={vr_man} alt='' className="h-100 w-100 object-fit-cover" />
-                                </IrrParallelogram>
-                                <button class="image-button font-space text-nowrap position-absolute buttonToParallelogram px-5">Toddlers Area</button>
-                            </div>
-                            <div className="col-12 col-md-6 col-lg-4 mb-5 h-300 borderParallelogram position-relative">
-                                <IrrParallelogram>
-                                    <img src={vr_man} alt='' className="h-100 w-100 object-fit-cover" />
-                                </IrrParallelogram>
-                                <button class="image-button font-space text-nowrap position-absolute buttonToParallelogram px-5">CAFE</button>
-                            </div>
-                            <div className="col-12 col-md-6 col-lg-4 mb-5 h-300 borderParallelogram position-relative">
-                                <IrrParallelogram>
-                                    <img src={vr_man} alt='' className="h-100 w-100 object-fit-cover" />
-                                </IrrParallelogram>
-                                <button class="image-button font-space text-nowrap position-absolute buttonToParallelogram px-5">Party Place</button>
-                            </div>
-                        </div>
-                    </section>
+                    <ExperinceTrill />
                 </div>
                 <section>
                     <Carousel />
