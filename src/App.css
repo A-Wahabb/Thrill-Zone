@@ -8,6 +8,11 @@
   src: url('./assets/font/Poppins/Poppins-Thin.otf');
 }
 
+@font-face {
+  font-family: 'Poppins-500';
+  src: url('./assets/font/Poppins/Poppins-Regular.otf');
+}
+
 .main-bg {
   background-color: #05061E;
 }
@@ -41,12 +46,20 @@
   width: fit-content;
 }
 
+.w-108 {
+  width: 108%;
+}
+
 .w-18ch {
   width: 18ch;
 }
 
 .h-300 {
   height: 300px;
+}
+
+.top-30 {
+  top: 30px;
 }
 
 .font-space {
@@ -57,8 +70,20 @@
   font-family: 'Poppins';
 }
 
+.font-poppins-500 {
+  font-family: 'Poppins-500';
+}
+
 .fs-18 {
   font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-30 {
+  font-size: 30px;
 }
 
 .fs-36 {
@@ -71,6 +96,18 @@
 
 .fs-5vw {
   font-size: 5vw
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
 }
 
 .videoClip {
@@ -115,4 +152,8 @@
 .buttonToParallelogram {
   bottom: -10%;
   left: 10%;
+}
+
+.text-white {
+  color: #FFFFFF;
 }

@@ -7,10 +7,12 @@ import pauseIcon from '../assets/img/pause_btn.svg'; // Your custom pause icon
 import IrrParallelogram from "../Components/IrrParallelogram/IrrParallelogram";
 import BlueParallogram from "../Components/BlueParallogram/BlueParallogram";
 import vr_man from '../assets/img/vr_man.png'; // Your custom play icon
+import Footer from "../Components/Footer";
 
 const HomePage = () => {
     const [isPlaying, setIsPlaying] = useState(true);
     const videoRef = useRef(null);
+
 
     const togglePlayPause = () => {
         if (isPlaying) {
@@ -134,6 +136,9 @@ const HomePage = () => {
                         </div>
                     </section>
                 </div>
+                <section className="mt-5 position-relative overflow-hidden">
+                    <Footer />
+                </section>
             </div>
         </>
     );
