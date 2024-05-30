@@ -91,11 +91,11 @@
 }
 
 .fs-7vw {
-  font-size: 7vw
+  font-size: clamp(50px, 7vw, 100px)
 }
 
 .fs-5vw {
-  font-size: 5vw
+  font-size: clamp(35px, 7vw, 70px)
 }
 
 .fw-400 {

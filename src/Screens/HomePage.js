@@ -8,6 +8,7 @@ import IrrParallelogram from "../Components/IrrParallelogram/IrrParallelogram";
 import BlueParallogram from "../Components/BlueParallogram/BlueParallogram";
 import vr_man from '../assets/img/vr_man.png'; // Your custom play icon
 import Footer from "../Components/Footer";
+import Carousel from "../Components/Slider";
 
 const HomePage = () => {
     const [isPlaying, setIsPlaying] = useState(true);
@@ -136,6 +137,9 @@ const HomePage = () => {
                         </div>
                     </section>
                 </div>
+                <section>
+                    <Carousel />
+                </section>
                 <section className="mt-5 position-relative overflow-hidden">
                     <Footer />
                 </section>
