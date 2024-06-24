@@ -21,7 +21,7 @@ const Gallery = () => {
                 <div className="container">
 
                     <section>
-                        <p className="font-space fs-5vw text-center text-white" >THRILL Gallery</p>
+                        <p className="font-poppins-500 fs-5vw text-center text-white" >THRILL Gallery</p>
                         <div className="row">
                             <div className="col-12 col-sm-6 col-lg-4 mb-5 h-300 borderParallelogram position-relative">
                                 <IrrParallelogram>

@@ -10,18 +10,18 @@ const HeadSection = () => {
 
                     <BlueParallogram>
                         <div className="d-flex gap-3 align-items-baseline">
-                            <p className="mb-0 text-blue font-space">Media center</p>
+                            <p className="mb-0 text-blue font-poppins-500">Media center</p>
                         </div>
                     </BlueParallogram>
                 </div>
-                <p className="font-space fs-7vw text-center text-white mx-auto w-18ch mt-4" >Clicks from pur Thrill Zone</p>
+                <p className=" fs-7vw text-center text-white mx-auto w-18ch mt-4" >Clicks from pur Thrill Zone</p>
                 <p className='my-4 font-poppins fs-18 text-white-80 text-center w-50 mx-auto'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
 
                 <div>
                     <ul className="d-flex gap-3 justify-content-center">
-                        <button class="white-image-button text-nowrap px-5 text-blue font-space  bg-transparent border-0 text-center fs-16 d-inline-block">Price</button>
+                        <button class="white-image-button text-nowrap px-5 text-blue font-poppins-500  bg-transparent border-0 text-center fs-16 d-inline-block">Price</button>
                         <div className="d-flex gap-2">
-                            <p className='text-white mb-0 align-content-center font-space'>Booking</p>
+                            <p className='text-white mb-0 align-content-center font-poppins-500'>Booking</p>
                             <img src={arrow_narrow_right} alt='arr' />
                         </div>
                     </ul>

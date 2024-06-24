@@ -11,22 +11,22 @@ const HeadSection = () => {
 
                     <BlueParallogram >
                         <div className="d-flex gap-3 align-items-baseline">
-                            <p className="mb-0 text-blue font-space">Laser Tag</p>
+                            <p className="mb-0 text-black fw-bold font-poppins">Laser Tag</p>
                             <div className="dot" />
-                            <p className="mb-0 text-blue font-space">6D Cinema</p>
+                            <p className="mb-0 text-black fw-bold font-poppins">6D Cinema</p>
                             <div className="dot" />
-                            <p className="mb-0 text-blue font-space">Entertainment Center</p>
+                            <p className="mb-0 text-black fw-bold font-poppins">Entertainment Center</p>
                         </div>
                     </BlueParallogram>
                 </div>
-                <p className="font-space fs-7vw text-center text-white mx-auto w-18ch mt-4" >The Pinnacle of Entertainment Hubs</p>
-                <p className='my-4 font-poppins fs-18 text-white-80 text-center w-50 mx-auto'>Dive into thrilling multiplayer battles, epic adventures, and the latest releases. Challenge friends or embark on solo missions. Get ready for non-stop fun!"</p>
+                {/* <p className="font-poppins fs-7vw fw-bold lh-base text-center text-white mx-auto w-18ch mt-4 banner-content" >The Pinnacle of Entertainment Hubs</p>
+                <p className='my-4 font-poppins fs-18 text-white-80 text-center w-50 mx-auto'>Dive into thrilling multiplayer battles, epic adventures, and the latest releases. Challenge friends or embark on solo missions. Get ready for non-stop fun!"</p> */}
 
                 <div>
-                    <ul className="d-flex gap-3 justify-content-center">
-                        <button class="white-image-button text-nowrap px-5 text-blue font-space bg-transparent border-0 text-center fs-16 d-inline-block">Booking</button>
+                    <ul className="d-flex gap-3 justify-content-center pt-3">
+                        <button class="white-image-button text-nowrap px-5 text-blue font-poppins-500 bg-transparent border-0 text-center fs-16 d-inline-block">Booking</button>
                         <div className="d-flex gap-2">
-                            <p className='text-white mb-0 align-content-center font-space'>Explore</p>
+                            <p className='text-white mb-0 align-content-center font-poppins-500'>Explore</p>
                             <img src={arrow_narrow_right} alt='arr' />
                         </div>
                     </ul>

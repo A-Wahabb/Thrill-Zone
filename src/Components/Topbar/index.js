@@ -23,13 +23,19 @@ const Topbar = () => {
                                     <NavLink className="nav-link mx-2" aria-current="page" to="/" activeClassName="active">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link mx-2" to="/products" activeClassName="active">Products</NavLink>
+                                    <NavLink className="nav-link mx-2" to="/About" activeClassName="active">About Us</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link mx-2" to="/pricing" activeClassName="active">Pricing</NavLink>
+                                    <NavLink className="nav-link mx-2" to="/Birthday" activeClassName="active">PartyBooking</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link mx-2" to="/Gallery" activeClassName="active">Gallery</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link mx-2" to="/Birthday" activeClassName="active">Packages</NavLink>
                                 </li>
                             </ul>
-                        </WhiteParallogram>
+                        </WhiteParallogram>  
 
                         <ul className="navbar-nav ms-auto d-none d-md-inline-flex">
                             <button class="image-button font-space px-4">Lets Talk</button>

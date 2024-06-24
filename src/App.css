@@ -21,6 +21,10 @@
   background-image: url(./assets/img/topBg.svg);
 }
 
+.birthday_top-bg {
+  background-image: url(./assets/img/bg-image.png);
+}
+
 .blueBtn {
   background-image: url(./assets/img/blueBtnBg.svg);
   background-color: transparent;
@@ -32,6 +36,14 @@
 
 .text-blue {
   color: #2844C3
+}
+
+.text-green {
+  color: #98CF17;
+}
+
+.text-black {
+  color: #000000;
 }
 
 .text-dark-blue {
@@ -74,6 +86,14 @@
   font-family: 'Poppins-500';
 }
 
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
 .fs-18 {
   font-size: 18px;
 }
@@ -97,6 +117,11 @@
 .fs-5vw {
   font-size: clamp(35px, 7vw, 70px)
 }
+
+.fs-3vw {
+  font-size: clamp(33px, 5vw, 60px)
+}
+
 
 .fw-400 {
   font-weight: 400;
@@ -161,7 +186,7 @@
 .dot {
   height: 5px;
   width: 5px;
-  background-color: #2844C3;
+  background-color: #98CF17;
 }
 
 .white-image-button {
@@ -182,9 +207,43 @@
   /* Adds a slight opacity change on hover */
 }
 
+.about-us_content {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.divider {
+  border-bottom: 1px solid #2844C3;
+}
 
 @media (max-width: 768px) {
   .topBar {
     clip-path: none;
   }
+
+  .banner-content {
+    font-size: 35px;
+    width: unset;
+  }
+
+  .blue-haxagon-left .blue-inner {
+    padding: 0px 29px;
+    font-size: 12px;
+  }
+
+  .about-content {
+    font-size: 24px;
+  }
+
+  .white-image-button {
+    line-height: 38px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+.input-feild {
+  border-radius: 6px !important;
+  border: 1px solid #EAEAEA26 !important;
 }

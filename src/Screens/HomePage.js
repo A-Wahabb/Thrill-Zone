@@ -6,7 +6,7 @@ import pauseIcon from '../assets/img/pause_btn.svg'; // Your custom pause icon
 // import videoFile from '../assets/s_video.mp4';
 import IrrParallelogram from "../Components/IrrParallelogram/IrrParallelogram";
 import BlueParallogram from "../Components/BlueParallogram/BlueParallogram";
-import vr_man from '../assets/img/vr_man.png'; // Your custom play icon
+import vr_man from '../assets/img/vr_man.JPG'; // Your custom play icon
 import Footer from "../Components/Footer";
 import Carousel from "../Components/Slider";
 import ExperinceTrill from "../Components/ExperienceTrill";
@@ -31,13 +31,14 @@ const HomePage = () => {
                 <div className="top-bg">
                     <Topbar />
                     <div className="container">
-
                         <HeadSection />
+                        <ExperinceTrill />
+
                     </div>
                 </div>
                 <div className="container">
-                    <div className="pb-5">
-                        <div className="videoClip borderParallelogram position-relative">
+                    <div className="py-5">
+                        <div className="videoClip borderParallelogram position-relative  ">
                             <IrrParallelogram>
 
                                 <video
@@ -58,14 +59,14 @@ const HomePage = () => {
                     </div>
                     <section className="pb-5" >
                         <BlueParallogram>
-                            <p className="font-space text-dark-blue px-2 mb-0 ">About us</p>
+                            <p className="font-poppins-500 fw-bold text-black px-2 mb-0 ">About us</p>
                         </BlueParallogram>
 
-                        <div className="row">
+                        <div className="row mt-4">
                             <div className="col-12 col-md-6">
-                                <p className="font-space text-white fs-36" >Thrill Zone has something beyond the biggest Laser Tag field in Islamabad</p>
+                                <p className="font-poppins text-white fs-36 about-content" >Thrill Zone has something beyond the biggest Laser Tag field in Dubai</p>
                                 <p className="font-poppins text-white-1">We have Enjoyable activities for all ages (5 years and above). Book a space at Thrill Zone for youngsters birthday parties, corporate group building or just a bit of excitement with family and friends…</p>
-                                <button class="white-image-button text-nowrap px-5 mt-3 text-blue font-space bg-transparent border-0 text-center fs-16 d-inline-block">Read More</button>
+                                <button class="white-image-button text-nowrap px-5 mt-3 text-blue font-poppins-500 bg-transparent border-0 text-center fs-16 d-inline-block" >Read More</button>
 
                             </div>
                             <div className="col-12 col-md-6 HalfImg borderParallelogram position-relative">
@@ -77,10 +78,10 @@ const HomePage = () => {
                     </section>
                     <section>
                         <BlueParallogram>
-                            <p className="font-space text-dark-blue px-2 mb-0 ">Games</p>
+                            <p className="font-poppins-500 fw-bold text-black px-2 mb-0 ">Games</p>
                         </BlueParallogram>
                     </section>
-                    <ExperinceTrill />
+
                 </div>
                 <section>
                     <Carousel />
